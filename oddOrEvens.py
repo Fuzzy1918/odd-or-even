@@ -1,9 +1,10 @@
+#import random
 import random
-
 
 # method takes 2 inputs a string that is either 'odd' or 'even' as oORe
 # and an int named guess in the range 0 - 5
 def oddOrEven(oORe, guess):
+    
     guess = int(guess)
     # a random int is the generated for the computers guess ranging from 0 - 5
     valueRandom = random.randint(0, 5)
@@ -61,6 +62,8 @@ for x in range(x):
     else:
         loss = loss + 1
     print()
+    
 # prints final score to see which outcome was the most likely
 print("Wins:", wins)
 print("Losses:", loss)
+#Nice
